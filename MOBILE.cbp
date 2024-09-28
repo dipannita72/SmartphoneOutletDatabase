@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MOBILE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MOBILE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MOBILE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="addItem.cpp" />
+		<Unit filename="addItem.h" />
+		<Unit filename="base.h" />
+		<Unit filename="baseclass.cpp" />
+		<Unit filename="baseclass.h" />
+		<Unit filename="buy.cpp" />
+		<Unit filename="buy.h" />
+		<Unit filename="customer.h" />
+		<Unit filename="customerclass.cpp" />
+		<Unit filename="customerclass.h" />
+		<Unit filename="customerlist.cpp" />
+		<Unit filename="customerlist.h" />
+		<Unit filename="delete.cpp" />
+		<Unit filename="delete.h" />
+		<Unit filename="derivedclass.cpp" />
+		<Unit filename="derivedclass.h" />
+		<Unit filename="list.cpp" />
+		<Unit filename="list.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="purchase.cpp" />
+		<Unit filename="purchase.h" />
+		<Unit filename="searchItem.cpp" />
+		<Unit filename="searchItem.h" />
+		<Unit filename="update.cpp" />
+		<Unit filename="update.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

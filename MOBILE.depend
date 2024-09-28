@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1529867004 source:e:\mobile\additem.cpp
+	"addItem.h"
+
+1528982895 e:\mobile\additem.h
+	<stdlib.h>
+	<iomanip>
+	<vector>
+	"derivedclass.h"
+	"menu.h"
+
+1529837106 e:\mobile\derivedclass.h
+	"base.h"
+	"main.h"
+
+1529836244 e:\mobile\base.h
+	<iostream>
+	<string>
+
+1529615745 e:\mobile\main.h
+	<iostream>
+	<string>
+	<fstream>
+	"menu.h"
+
+1529844743 e:\mobile\menu.h
+	"main.h"
+	"addItem.h"
+	"searchItem.h"
+	"list.h"
+	"update.h"
+	<stdlib.h>
+	"purchase.h"
+	"customerlist.h"
+	"delete.h"
+
+1528983560 e:\mobile\searchitem.h
+	<stdlib.h>
+	"derivedclass.h"
+	"buy.h"
+	<vector>
+
+1529844743 e:\mobile\buy.h
+	"customerclass.h"
+	"menu.h"
+	<fstream>
+
+1529440770 e:\mobile\customerclass.h
+	<iostream>
+	<string>
+	<map>
+	<utility>
+
+1529003519 e:\mobile\list.h
+	"main.h"
+	"derivedclass.h"
+	<vector>
+	<algorithm>
+	"menu.h"
+
+1529098715 e:\mobile\update.h
+	<vector>
+	<fstream>
+	"derivedclass.h"
+	<string>
+	"menu.h"
+
+1529600481 e:\mobile\purchase.h
+	"menu.h"
+	"customerclass.h"
+	"derivedclass.h"
+	"menu.h"
+	<vector>
+	<fstream>
+	<string>
+
+1529614915 e:\mobile\customerlist.h
+	<fstream>
+	<string>
+	<vector>
+	"menu.h"
+	<sstream>
+
+1529844743 e:\mobile\delete.h
+	<string>
+	<fstream>
+	<vector>
+	"derivedclass.h"
+	"menu.h"
+
+1528659478 source:e:\mobile\baseclass.cpp
+	"base.h"
+
+1529855619 source:e:\mobile\buy.cpp
+	"buy.h"
+
+1528902113 source:e:\mobile\customerclass.cpp
+	"customerclass.h"
+
+1529866573 source:e:\mobile\customerlist.cpp
+	"customerlist.h"
+
+1529868470 source:e:\mobile\delete.cpp
+	"delete.h"
+
+1529855001 source:e:\mobile\derivedclass.cpp
+	"derivedclass.h"
+	"main.h"
+
+1529867188 source:e:\mobile\list.cpp
+	"list.h"
+
+1529615782 source:e:\mobile\main.cpp
+	<iostream>
+	"main.h"
+
+1529868470 source:e:\mobile\menu.cpp
+	"menu.h"
+
+1529866073 source:e:\mobile\purchase.cpp
+	"purchase.h"
+
+1529855920 source:e:\mobile\searchitem.cpp
+	"searchItem.h"
+
+1529868042 source:e:\mobile\update.cpp
+	"update.h"
+
